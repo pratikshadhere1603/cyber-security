@@ -1,0 +1,489 @@
+<!-- cyber security website using bootstrap CDN and SCSS -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Security Demo</title>
+
+  <link rel="icon" type="image/x-icon" href="./img/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-default fixed-top">
+      <div class="container mt-4">
+        <a class="navbar-caption fontColor display-2" href="#">SECUREM4</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-solid fa-bars "></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="navbar-nav navbar-dropdown navbar-right">
+            <li class="nav-item">
+              <a class="nav-link nav-text display-7 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-text display-7" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-text display-7" aria-current="page" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-text display-7" aria-current="page" href="#">+1 (234) 567 89 01</a>
+            </li>
+
+          </ul>
+          <div class="social__icons">
+            <a class="icon__wrapper" href="#">
+              <i class="icon__font fab fa-facebook fa-2x"></i>
+            </a>
+            <a class="icon__wrapper" href="#">
+              <i class="icon__font fab fa-twitter fa-2x"></i>
+            </a>
+            <a class="icon__wrapper" href="#">
+              <i class="icon__font fab fa-instagram fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- banner section -->
+  <section class="banner">
+    <div class="container">
+      <div class="row primaryColor">
+        <div class="col-md-5">
+          <h2 class="display-1 banner_border position-relative"><strong>Cyber <br> Security</strong></h6>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <p class="display-5">
+            <strong>The safety of our customers is <br>Our top priority! </strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- feature section -->
+  <section class="feature">
+    <div class="container">
+      <div class="feature__header pb-5">
+        <h4 class="titleColor display-1 text-center">Our Features</h4>`
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 feature__card">
+          <div class="feature__wrapper">
+            <div class="feature__image">
+              <img src="./img/features1.webp" alt="cyber security image">
+            </div>
+            <div class="feature__content">
+              <h5 class="titleColor display-5 mt-3">Cyber Security</h5>
+              <p class="textColor">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Phasellus cursus, lacus at fringlla lacinia.
+              </p>
+              <span class="fontColor display-7">Read more</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 feature__card">
+          <div class="feature__wrapper">
+            <div class="feature__image">
+              <img src="./img/background1.webp" alt="home security image">
+            </div>
+            <div class="feature__content">
+              <h5 class="titleColor display-5 mt-3">Smart Home Security</h5>
+              <p class="textColor">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Phasellus cursus, lacus at fringlla lacinia.
+              </p>
+              <span class="fontColor display-7">Read more</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 feature__card">
+          <div class="feature__wrapper">
+            <div class="feature__image">
+              <img src="./img/features2.webp" alt="mobile security image">
+            </div>
+            <div class="feature__content">
+              <h5 class="titleColor display-5 mt-3">Mobile App Security</h5>
+              <p class="textColor">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Phasellus cursus, lacus at fringlla lacinia.
+              </p>
+              <span class="fontColor display-7">Read more</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- cyber-security -->
+  <section class="cyber">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 cyber__content">
+          <h6 class="titleColor display-1">About Cyber Security</h6>
+          <p class="textColor display-7 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Corporis quo in eaque totam laudantium voluptas, laborum ullam delectus eveniet sit
+            reprehenderit non facilis officia voluptates nobis magnam, rerum quos perferendis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quo ducimus odio assumenda, autem
+            omnis?
+          </p>
+          <div class="section-btn">
+            <a href="#" class="btn btn-lg btn-success display-4">Read More</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="cyber__image">
+            <img src="./img/features3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- higher security -->
+  <section class="higher">
+    <div class="container">
+      <h3 class="titleColor text-center display-2 pb-5">The highest level of security</h3>
+      <div class="row">
+        <div class="card border-0 col-md-6">
+          <div class="card__wrapper">
+            <a class="icon__wrapper" href="#">
+              <i class="fas fa-mouse-pointer"></i>
+            </a>
+            <h5 class="display-2 card-title titleColor mt-2">4 230 000</h5>
+            <p class="card-text titleColor display-7">Known viruses</p>
+          </div>
+        </div>
+        <div class="card border-0 col-md-6">
+          <div class="card__wrapper">
+            <a class="icon__wrapper" href="#">
+              <i class="fas fa-shield-alt"></i>
+            </a>
+            <h5 class="display-2 card-title titleColor mt-2">99.8%</h5>
+            <p class="card-text titleColor display-7">viruses blocked</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pricing -->
+  <section class="pricing p-0">
+    <div class="container">
+      <h2 class="titleColor text-center display-2 pb-5">Our Pricing</h2>
+      <div class="row">
+        <div class="col-md-6 text-center col-lg-4">
+          <div class="plan">
+            <div class="plan__header textColor">
+              <h5 class="plan-title mb-3 display-7">
+                <strong>Monthly</strong>
+              </h5>
+              <h6 class="titleColor m-0 display-2">$19</h6>
+              <p class="mb-3">
+                Per month
+              </p>
+            </div>
+            <div class="plan__body pb-5">
+              <ul class="textColor plan-list mb-4 p-0">
+                <li class="list-item">
+                  Lorem ipsum
+                </li>
+                <li class="list-item">
+                  Dolor sit amet
+                </li>
+                <li class="list-item">
+                  Consectetur
+                </li>
+                <li class="list-item">
+                  Dipiscing slit
+                </li>
+                <li class="list-item">
+                  Sed consequat
+                </li>
+              </ul>
+              <div class="section-btn">
+                <a href="#" class="btn btn-lg btn-success">Buy Now</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 text-center col-lg-4">
+          <div class="plan">
+            <div class="plan__header textColor">
+              <h5 class="plan-title mb-3 display-7">
+                <strong>Yearly</strong>
+              </h5>
+              <h6 class="titleColor m-0 display-2">$29</h6>
+              <p class="mb-3">
+                Per year
+              </p>
+            </div>
+            <div class="plan__body pb-5">
+              <ul class="textColor plan-list mb-4 p-0">
+                <li class="list-item">
+                  Lorem ipsum
+                </li>
+                <li class="list-item">
+                  Dolor sit amet
+                </li>
+                <li class="list-item">
+                  Consectetur
+                </li>
+                <li class="list-item">
+                  Dipiscing slit
+                </li>
+                <li class="list-item">
+                  Sed consequat
+                </li>
+              </ul>
+              <div class="section-btn">
+                <a href="#" class="btn btn-lg btn-success">Buy Now</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 text-center col-lg-4">
+          <div class="plan">
+            <div class="plan__header textColor">
+              <h5 class="plan-title mb-3 display-7">
+                <strong>Lifetime</strong>
+              </h5>
+              <h6 class="titleColor m-0 display-2">$399</h6>
+              <p class="mb-3">
+                One time
+              </p>
+            </div>
+            <div class="plan__body pb-5">
+              <ul class="textColor plan-list mb-4 p-0">
+                <li class="list-item">
+                  Lorem ipsum
+                </li>
+                <li class="list-item">
+                  Dolor sit amet
+                </li>
+                <li class="list-item">
+                  Consectetur
+                </li>
+                <li class="list-item">
+                  Dipiscing slit
+                </li>
+                <li class="list-item">
+                  Sed consequat
+                </li>
+              </ul>
+              <div class="section-btn">
+                <a href="#" class="btn btn-lg btn-success">Buy Now</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- video -->
+  <section class="video">
+    <div class="container text-center">
+      <h4 class="titleColor display-2 pb-5">Watch Video</h4>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="video_image">
+            <img src="img/background1.webp" alt="cyber security">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our team -->
+  <section class="team">
+    <div class="container">
+      <h2 class="titleColor display-2 mb-5">Our Team</h2>
+      <div class="row">
+        <div class="card border-0 col-md-6 col-lg-4">
+          <div class="card__wrapper text-center">
+            <img src="img/team1.jpg" alt="General director of cyber security">
+            <div class="card__box">
+              <h4 class="titleColor mb-2">James Ford</h4>
+              <h5 class="textColor">General Director</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 col-md-6 col-lg-4">
+          <div class="card__wrapper text-center">
+            <img src="img/team2.jpg" alt="General director of cyber security">
+            <div class="card__box">
+              <h4 class="titleColor mb-2">Anna Brown</h4>
+              <h5 class="textColor">Manager</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 col-md-6 col-lg-4">
+          <div class="card__wrapper text-center">
+            <img src="img/team3.jpg" alt="General director of cyber security">
+            <div class="card__box">
+              <h4 class="titleColor mb-2">Ben Jason</h4>
+              <h5 class="textColor">Developer</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our Awards -->
+  <section class="awards p-0">
+    <div class="container">
+      <h2 class="titleColor mb-5 display-2">Our Awards</h2>
+      <div class="row">
+        <div class="awards__card">
+          <img src="img/1.png" alt="awards 1" />
+          <div class="awards__box">
+            <h4 class="titleColor title mb-2 display-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolore tempore explicabo!
+            </h4>
+            <a class="icon__wrapper" href="#">
+              <i class="icon__font fas fa-arrow-right mt-3"></i>
+            </a>
+          </div>
+
+        </div>
+        <div class="awards__card">
+          <img src="img/4.png" alt="awards 1" />
+          <div class="awards__box">
+            <h4 class="titleColor title mb-2 display-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolore tempore explicabo!
+            </h4>
+            <a class="icon__wrapper" href="#">
+              <i class="icon__font fas fa-arrow-right mt-3"></i>
+            </a>
+          </div>
+        </div>
+        <div class="awards__card">
+          <img src="img/3.png" alt="awards 1" />
+          <div class="awards__box">
+            <h4 class="titleColor title mb-2 display-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolore tempore explicabo!
+            </h4>
+            <a class="icon__wrapper" href="#">
+              <i class="icon__font fas fa-arrow-right mt-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- user -->
+  <section class="user">
+    <div class="container text-center">
+      <h3 class="titleColor display-2 mb-3">What our users say</h3>
+      <div id="user__carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="user__image mb-2">
+              <img src="img/team2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <p class="display-7 textColor text-center mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Velit culpa enim accusantium id aliquid ad eum libero sit voluptas,
+              explicabo temporibus dolore! Sit vero iste non ad, voluptatum repellendus quisquam quam
+              provident amet neque voluptates, odio vitae nam quibusdam modi!
+            </p>
+            <div class="titleColor mt-3 fw-bold">Alexa Brown</div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="user__image mb-2">
+              <img src="img/team1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <p class="display-7 textColor text-center mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Velit culpa enim accusantium id aliquid ad eum libero sit voluptas,
+              explicabo temporibus dolore! Sit vero iste non ad, voluptatum repellendus quisquam quam
+              provident amet neque voluptates, odio vitae nam quibusdam modi!
+            </p>
+            <div class="titleColor mt-3 fw-bold">Brown Alexa</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- details  -->
+  <section class="details">
+    <div class="container">
+      <div class="row">
+        <div class="card border-0 col-lg-6">
+          <div class="card__wrapper">
+            <h3 class="display-5 fw-bold titleColor">Company Office</h3>
+            <div class="row">
+              <div class="col-9 card__details ">
+                <p class="textColor">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Adipisci, nobis, tenetur accusantium eveniet, repellat assumenda
+                  ex quas commodi iure odit velit quos incidunt facilis?
+                  <br>
+                <address>South Carolina 3531 Camden Place 54</address>
+                </p>
+                <p class="display-5 fontColor">+1 (234) 567 89 01</p>
+              </div>
+              <div class="col-3 details__icon">
+                <a class="icon__wrapper" href="#">
+                  <i class="icon__font mb-2 fas fa-globe"></i>
+                </a>
+                <a class="icon__wrapper" href="#">
+                  <i class="icon__font mb-2 fas fa-map-marker-alt"></i>
+                </a>
+                <a class="icon__wrapper" href="#">
+                  <i class="icon__font mb-2 fas fa-phone-square-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 col-lg-6">
+          <div class="card__wrapper">
+            <h3 class="display-5 fw-bold titleColor">Customer Service</h3>
+            <div class="card__details col-9">
+              <p class="textColor">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Adipisci, nobis, tenetur accusantium eveniet, repellat assumenda
+                ex quas commodi iure odit velit quos incidunt facilis?
+                <br>
+              <address>South Carolina 3531 Camden Place 54</address>
+              </p>
+              <p class="display-5 fontColor">+1 (234) 567 89 01</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container text-center">
+      copyright &copy; 2022
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.cyber {
+    &__image {
+        img {
+            width: 100%;
+            box-shadow: $shadow;
+            object-fit: cover;
+            border-radius: 3rem;
+        }
+    }
+    &__content {
+        @media screen and (max-width: 991px) {
+            margin-bottom: 20px;
+        }
+    }
+}

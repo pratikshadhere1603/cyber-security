@@ -1,0 +1,39 @@
+a .nav-link {
+    justify-content: center;
+    align-items: center;
+}
+.social__icon {
+    @media screen and (max-width: 991px) {
+        padding: 10px 0;
+    }
+}
+.icon__wrapper {
+    color: $blueColor;
+    font-size: 1.5rem;
+
+    .icon__font {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        margin: 0 0.3rem;
+        box-shadow: $shadow;
+        border-radius: 50%;
+    }
+}
+.navbar-expand-lg, .navbar-collapse, .navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+
+    @media screen and (max-width: 991px) {
+        display: block;
+    }
+}
+.nav-text {
+    color: $textColor;
+    font-weight: 500;
+}
+.navbar-collapse {
+    @media screen and (max-width: 991px) {
+        justify-content: flex-start;
+    } 
+}

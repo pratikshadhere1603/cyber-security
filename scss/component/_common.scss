@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.body {
+    color: black;
+}
+section {
+    padding: 5rem 0;
+    background-color: #fff;
+
+    @media screen and (max-width: 991px) {
+        padding: 4rem 0;
+    }
+}
+.display-1 {
+    font-family: $font-family;
+    font-size: 4rem;
+    line-height: 1.1;
+    font-weight: 600;
+}  
+.display-2 {
+    font-family: $font-family;
+    font-size: 2.8rem;
+    color: $fontColor;
+}
+
+.display-5 {
+    font-family: $font-family;
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+.display-7 {
+    font-family: $font-family;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+// color classes 
+.textColor {
+    color: $textColor;
+}
+.primaryColor {
+    color: #fff;
+}
+.titleColor {
+    color: $headerColor;
+}
+.fontColor {
+    color: $fontColor;
+}
+.card-wrapper {
+    padding-right: 2rem;
+}
+.btn-lg {
+    padding: 1rem 2rem;
+    border-radius: 100px;
+}
+.btn-success {
+    color: #fff;
+    background-color: $fontColor;
+    border-color: $fontColor;
+}
+.btn:hover {
+    background-color: $fontColor;
+    border-color: $fontColor;
+}
+
+
+// footer-section
+.footer {
+    background: $blueColor;
+    color: #fff;
+    padding: 20px 0;
+}

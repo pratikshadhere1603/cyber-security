@@ -1,0 +1,19 @@
+.higher {
+    .card__wrapper {
+        padding: 3rem;
+        box-shadow: $shadow;
+        border-radius: 3rem;
+    }
+
+    .icon__wrapper {
+        display: block;
+        font-size: 4rem;
+        color: $blueColor;
+    }
+
+    .card {
+        @media screen and (max-width: 768px) {
+            margin-bottom: 2rem;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.plan {
+    word-break: break-word;
+    box-shadow: $shadow;
+    border-radius: 3rem;
+    background: $bg-color;
+
+    &__header {
+        padding: 3rem 1rem 0;
+    }
+
+    .list-item {
+        text-decoration: none;
+        list-style-type: none;
+        padding: 0.5rem 3.25rem;
+        font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 991px) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 2rem;
+    }
+}

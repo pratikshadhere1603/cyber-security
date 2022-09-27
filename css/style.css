@@ -1,0 +1,280 @@
+a .nav-link {
+  justify-content: center;
+  align-items: center; }
+
+@media screen and (max-width: 991px) {
+  .social__icon {
+    padding: 10px 0; } }
+
+.icon__wrapper {
+  color: #0196e3;
+  font-size: 1.5rem; }
+  .icon__wrapper .icon__font {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin: 0 0.3rem;
+    box-shadow: 0.2em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+    border-radius: 50%; }
+
+.navbar-expand-lg, .navbar-collapse, .navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff; }
+  @media screen and (max-width: 991px) {
+    .navbar-expand-lg, .navbar-collapse, .navbar {
+      display: block; } }
+
+.nav-text {
+  color: #6c758f;
+  font-weight: 500; }
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    justify-content: flex-start; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.body {
+  color: black; }
+
+section {
+  padding: 5rem 0;
+  background-color: #fff; }
+  @media screen and (max-width: 991px) {
+    section {
+      padding: 4rem 0; } }
+
+.display-1 {
+  font-family: "Roboto", display;
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 600; }
+
+.display-2 {
+  font-family: "Roboto", display;
+  font-size: 2.8rem;
+  color: #47b5ed; }
+
+.display-5 {
+  font-family: "Roboto", display;
+  font-size: 1.7rem;
+  line-height: 1.5; }
+
+.display-7 {
+  font-family: "Roboto", display;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 600; }
+
+.textColor {
+  color: #6c758f; }
+
+.primaryColor {
+  color: #fff; }
+
+.titleColor {
+  color: #36187d; }
+
+.fontColor {
+  color: #47b5ed; }
+
+.card-wrapper {
+  padding-right: 2rem; }
+
+.btn-lg {
+  padding: 1rem 2rem;
+  border-radius: 100px; }
+
+.btn-success {
+  color: #fff;
+  background-color: #47b5ed;
+  border-color: #47b5ed; }
+
+.btn:hover {
+  background-color: #47b5ed;
+  border-color: #47b5ed; }
+
+.footer {
+  background: #0196e3;
+  color: #fff;
+  padding: 20px 0; }
+
+.banner {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  background-color: #0196e3; }
+  @media screen and (max-width: 767px) {
+    .banner p br {
+      display: none; } }
+  .banner h2::after {
+    content: "";
+    color: #fff;
+    background-color: #fff;
+    position: absolute;
+    z-index: 200;
+    width: 4px;
+    top: 0;
+    right: 0;
+    border-radius: 100px;
+    height: 100%;
+    opacity: 1; }
+    @media screen and (max-width: 767px) {
+      .banner h2::after {
+        opacity: 0; } }
+
+@media screen and (max-width: 991px) {
+  .feature__card {
+    margin-bottom: 30px; } }
+.feature__image {
+  border-radius: 2rem;
+  transition: all 0.3s;
+  overflow: hidden; }
+  .feature__image img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover; }
+    .feature__image img:hover {
+      opacity: 0.8;
+      transition: 0.3s ease-in-out; }
+.feature__wrapper {
+  position: relative;
+  padding: 1rem;
+  border-radius: 3rem;
+  background: #f2f3f7;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  box-shadow: 0.2em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+  cursor: pointer;
+  margin-bottom: 2rem; }
+
+.cyber__image img {
+  width: 100%;
+  box-shadow: 0.2em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+  object-fit: cover;
+  border-radius: 3rem; }
+@media screen and (max-width: 991px) {
+  .cyber__content {
+    margin-bottom: 20px; } }
+
+.higher .card__wrapper {
+  padding: 3rem;
+  box-shadow: 0.2em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+  border-radius: 3rem; }
+.higher .icon__wrapper {
+  display: block;
+  font-size: 4rem;
+  color: #0196e3; }
+@media screen and (max-width: 768px) {
+  .higher .card {
+    margin-bottom: 2rem; } }
+
+.plan {
+  word-break: break-word;
+  box-shadow: 0.2em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+  border-radius: 3rem;
+  background: #f2f3f7; }
+  .plan__header {
+    padding: 3rem 1rem 0; }
+  .plan .list-item {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.5rem 3.25rem;
+    font-size: 1.2rem; }
+  @media screen and (max-width: 991px) {
+    .plan {
+      margin-bottom: 30px; } }
+  @media screen and (max-width: 768px) {
+    .plan {
+      margin-bottom: 2rem; } }
+
+.video img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3rem; }
+.video__icon {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute; }
+.video .icon {
+  font-size: 3rem;
+  color: #0196e3;
+  padding: 2rem;
+  border-radius: 50%;
+  transition: all 0.3s;
+  background: #dae2ec; }
+
+.card__wrapper {
+  padding: 4rem 2rem;
+  border-radius: 3rem;
+  box-shadow: 0.2em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+  margin-bottom: 2rem;
+  background-color: #f2f3f7;
+  min-height: 410px; }
+  @media screen and (max-width: 767px) {
+    .card__wrapper {
+      min-height: auto; } }
+  .card__wrapper img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    margin-bottom: 2rem; }
+  .card__wrapper .card_box {
+    margin: auto; }
+
+.awards__card {
+  padding: 2rem 2rem;
+  border-radius: 3rem;
+  box-shadow: 0.2em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+  margin-bottom: 3rem;
+  background-color: #f2f3f7;
+  display: flex; }
+  @media screen and (max-width: 767px) {
+    .awards__card {
+      flex-direction: column; } }
+  .awards__card img {
+    width: 150px;
+    background: #f2f3f7;
+    height: 150px;
+    border-radius: 50%;
+    padding: 1rem;
+    object-fit: cover;
+    margin: auto; }
+.awards__box {
+  margin: auto;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 767px) {
+    .awards__box {
+      padding-left: 0; } }
+
+.user__image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  box-shadow: 0.2em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #fff;
+  overflow: hidden; }
+  .user__image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .user__image img:hover {
+    opacity: 0.5; }
+
+.details__icon {
+  display: flex;
+  flex-direction: column; }
+
+/*# sourceMappingURL=style.css.map */
